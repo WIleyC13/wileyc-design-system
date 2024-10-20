@@ -1,0 +1,20 @@
+/* variables.module.css */
+:root {
+    --primary-color: #1DB954;
+    /* Vibrant green */
+    --secondary-color: #1A1A1A;
+    /* Dark gray */
+    --text-color: #FFFFFF;
+    /* White text color */
+    --background-color: #121212;
+    /* Very dark gray, almost black */
+
+    --standard-border-radius: 8px;
+    /* Slightly rounded corners */
+    --standard-padding: 12px 24px;
+    /* More padding for a modern look */
+    --button-height: auto;
+    /* Auto height to accommodate padding */
+    --button-width: auto;
+    /* Auto width to accommodate padding */
+}
