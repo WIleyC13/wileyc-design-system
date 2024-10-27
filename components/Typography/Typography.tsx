@@ -1,4 +1,5 @@
 import React from 'react';
+// @ts-ignore
 import styles from './Typography.module.css';
 
 type TypographyProps = {
@@ -6,7 +7,7 @@ type TypographyProps = {
     text: React.ReactNode;
 };
 
-export function Typography({ variant, text }: TypographyProps) {
+export default function Typography({ variant, text }: TypographyProps) {
     const Tag = variant === 'p' || variant === 'smallText' || variant === 'link' || variant === 'blockquote' || variant === 'code' || variant === 'list' || variant === 'listItem' ? 'div' : variant;
 
     return (

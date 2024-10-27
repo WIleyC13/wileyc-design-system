@@ -1,11 +1,12 @@
 import React from 'react';
+// @ts-ignore
 import styles from './Backsplash.module.css';
 
 type BacksplashProps = {
     children: React.ReactNode;
 };
 
-export function Backsplash({ children }: BacksplashProps) {
+export default function Backsplash({ children }: BacksplashProps) {
     return (
         <div className={styles.backsplash}>
             {children}
